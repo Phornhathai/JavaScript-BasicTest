@@ -30,7 +30,4 @@ function sortMinMaxArray (arr1,arr2){
 
     console.log(newArr);
 }
-
-
-
 sortMinMaxArray([1,2,3,4],[100,5,1,10,4])
