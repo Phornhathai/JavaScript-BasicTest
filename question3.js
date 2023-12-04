@@ -5,10 +5,10 @@ function findMidChar(str) {
     mid = Math.floor(mid)
     let arr = ""
     // console.log(word[mid]);
-    if (word.length % 2 == 0) {
+    if (word.length % 2 === 0) {
         arr = arr + word[mid-1] + word[mid]
         console.log(arr);
-    } else if (word.length % 2 != 0){
+    } else if (word.length % 2 !== 0){
         arr = arr + word[mid]
         console.log(arr);
     } else{

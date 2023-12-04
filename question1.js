@@ -11,7 +11,9 @@ function sum (num){
         sum = sum + arr[i] ** (i+1)
         console.log(sum);
     }
-
+    //3 ** 1
+    //2 ** 2
+    //1 ** 3 
 }
 
 sum(321)
